@@ -1,0 +1,44 @@
+.calendar-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  background-color: #0c6edf; /* Light blue background */
+}
+
+.react-calendar__tile {
+  position: relative;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(50, 181, 237, 0.9); /* White background for tiles to contrast with the light blue calendar background */
+}
+
+.task-indicator {
+  position: absolute;
+  top: 0px;
+  left: 10%;
+  transform: translateX(-50%);
+}
+
+.react-calendar__tile--active {
+  background: var(--ion-color-primary-tint) !important;
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background: var(--ion-color-light);
+}
+
+.react-calendar__navigation button {
+  font-size: 16px;
+  padding: 10px;
+}

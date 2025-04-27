@@ -1,0 +1,27 @@
+.selected-date {
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.selected-date h2 {
+  margin: 0;
+  color: var(--ion-color-primary);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+ion-fab {
+  margin-bottom: 16px;
+}
+
+/* Make sure the calendar fits nicely on mobile */
+@media (max-width: 576px) {
+  .react-calendar {
+    font-size: 0.9rem;
+  }
+  
+  .react-calendar__tile {
+    height: 50px;
+  }
+}

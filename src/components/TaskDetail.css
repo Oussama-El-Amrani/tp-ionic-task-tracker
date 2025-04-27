@@ -1,0 +1,66 @@
+.task-date-item, .task-status-item {
+  margin-bottom: 8px;
+}
+
+.markdown-container {
+  margin-top: 20px;
+  padding: 16px;
+  background-color: var(--ion-card-background);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-container h1,
+.markdown-container h2,
+.markdown-container h3,
+.markdown-container h4,
+.markdown-container h5,
+.markdown-container h6 {
+  color: var(--ion-color-primary);
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.markdown-container p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.markdown-container ul,
+.markdown-container ol {
+  padding-left: 24px;
+  margin-bottom: 16px;
+}
+
+.markdown-container li {
+  margin-bottom: 8px;
+}
+
+.markdown-container code {
+  background-color: var(--ion-color-light);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.markdown-container pre {
+  background-color: var(--ion-color-light);
+  padding: 16px;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.markdown-container blockquote {
+  border-left: 4px solid var(--ion-color-primary);
+  padding-left: 16px;
+  margin-left: 0;
+  color: var(--ion-color-medium);
+}
+
+.markdown-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 16px 0;
+}
